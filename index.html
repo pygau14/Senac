@@ -1,0 +1,1761 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Senac Group | Just another Steel Themes Sites site</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Libraries CSS Files -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link type="text/css" rel="stylesheet" href="homepage4/css/style-4.css" />
+    <link rel="stylesheet" type="text/css" href="homepage4/css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Slider Revolution CSS Files -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- <script>
+        $(document).ready(function() {
+    // Initially hide all services
+    $('.gallery_product.grid-item').hide();
+
+    // Show only the services with class "ViewPage"
+    $('.gallery_product.grid-item.ViewPage').show();
+
+    // Add active class to the "View All Our Services" button
+    $('.button.ViewPage').addClass('active');
+
+    // Filter services when category buttons are clicked
+    $('.button-group li.button').click(function() {
+        $('.button-group li.button').removeClass('active');
+        $(this).addClass('active');
+        var filterValue = $(this).attr('data-filter');
+        if (filterValue === '.ViewPage') {
+            $('.gallery_product.grid-item').show();
+        } else {
+            $('.gallery_product.grid-item').hide();
+            $(filterValue).show();
+        }
+        
+    });
+
+    
+});
+
+
+    </script> -->
+    <!------------------------------------owl--------------------------------------------------------------------->
+    <link type="text/css" rel="stylesheet" href="homepage4/owl/assets/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="homepage4/owl/assets/owl.theme.default.min.css" />
+    <!------------------------------------owl-------------------------------------------------------------------->
+    <style>
+      
+        /* Hide extra services by default */
+.list-project .gallery_product:nth-child(n+5) {
+    visibility: hidden;
+}
+
+.tax{
+    font-size: 20px;
+}
+.para{
+    padding: 25px 181px 40px!important;
+}
+
+
+
+
+        .counter .counter-count {
+            font-family: "Rubik-Light";
+            font-size: 78px;
+            color: #000;
+        }
+
+        .menu {
+            list-style: none;
+        }
+
+
+
+        .menu3:hover .mega-menu {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .mega-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #ffffff;
+            padding: 20px;
+            z-index: 9999;
+            /* Adjust the z-index as needed */
+            width: 1000px;
+            /* Ensure the mega menu spans the full width */
+        }
+
+        .column {
+            display: inline-block;
+            /* Change from float to inline-block */
+            width: 75%;
+            vertical-align: top;
+            /* Ensure columns align properly */
+        }
+
+        .column li {
+            margin-bottom: 10px;
+        }
+
+
+        /* footer css */
+        .info-inner-footer{
+           margin-left: -8px;
+}
+
+        a.copy:hover {
+            color: #224c86;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .email {
+                margin-left: 1px !important;
+            }
+
+            .info-inner {
+                margin-left: 12px !important;
+            }
+
+            .service-class {
+                margin-top: 40px !important;
+            }
+            .counter-section h1 {
+ 
+  padding: 0px 12px!important;
+        }
+        .about-us-section .about-content-inner .content-inner p {
+  
+  padding-right: 16px!important;
+}
+    }
+
+        /* footer css end*/
+    </style>
+</head>
+
+<body>
+    <div class="preloader" id="preloader"></div>
+    <div id="page" class="page-wrapper header-sticky header-v1 hide-topbar-mobile header-sticky">
+        <div class="wapper">
+            <!----------------------------------------wapper---------------------------------------------->
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
+                            <div class="logo">
+                                <img src="img/Logo.jpg" class="img-responsive"  alt="logo" width="161" height="42" />
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                            <div class="right-header">
+                                <div class="header-info">
+                                    <div class="info-inner ">
+                                        <span class="icontop "><span class="flaticon-phone-1 icon"></span></span>
+                                        <span class="iconcont">(416) 335-4999<br><a>Any quries? Call us.</a></span>
+                                    </div>
+                                    <div class="info-inner ">
+                                        <span class="icontop "><span class="flaticon-clock icon"></span></span>
+                                        <span class="iconcont">Visit Our Office:<br><a>Mon - Fri: 9:00AM -
+                                                5:00PM</a></span>
+                                    </div>
+                                    <div class="info-inner">
+                                        <span class="icontop"><span class="flaticon-pin icon"></span></span>
+                                        <span class="iconcont">1585 Markham Rd Unit 409<br><a>Scarborough, ON M1B
+                                                2W1</a></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- masthead -->
+            <header id="masthead" class="site-header clearfix">
+                <div class="header-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="site-logo col-md-3 col-sm-6 col-xs-6">
+                                <a href="#" class="logo">
+                                    <img src="img/Logo.jpg" class="logo-dark show-logo"
+                                        alt="logo" />
+                                </a>
+                                <h1 class="site-title"><a href="#">FactoryPlus</a></h1>
+                                <h2 class="site-description">Just another Steel Themes Sites site</h2>
+                            </div>
+                            <div class="site-menu col-md-12 col-sm-6 col-xs-6">
+                                <div class="navbar-toggle toggle-navs">
+                                    <a href="#" class="navbars-icon selected-mobile">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <nav id="site-navigation" class="main-nav primary-nav nav">
+                                    <ul id="primary-menu" class="menu">
+                                        <li class="dropdown-item current-menu-item">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li class="dropdown-item menu3">
+                                            <a href="#">Services</a>
+                                            <div class="mega-menu">
+                                                <div class="column">
+                                                    <h3><a href="co-operative.html">Corporate Tax</a></h3>
+                                                    <h3><a href="personal-tax.html">Personal Tax</a></h3>
+                                                    <h3><a href="accounting-firm.html">Accounting Firm</a></h3>
+                                                    <h3><a href="bussiness-patnership.html">Business Partnership Tax
+                                                            Preparation</a></h3>
+                                                </div>
+                                                <div class="column">
+                                                    <h3><a href="cra-audit.html">CRA Audit Representation</a></h3>
+                                                    <h3><a href="payroll-tax.html">Payroll Tax Problems</a></h3>
+                                                    <h3><a href="late-tax-filling.html">Late Tax Filling</a></h3>
+                                                    <h3><a href="self-employed-tax-prepration.html">Self Employed Tax
+                                                            Preparation</a></h3>
+                                                </div>
+                                                <div class="column">
+
+                                                    <h3><a href="small-bussiness.html">Small Business Tax</a></h3>
+                                                    <h3><a href="tax-planing.html">Tax Planning</a></h3>
+                                                    <h3><a href="bussiness-advisory.html">Business Advisory</a></h3>
+                                                    <h3><a href="bussiness-tax.html">Business Tax Preparation </a></h3>
+
+                                                </div>
+                                                <div class="column">
+
+                                                    <h3><a href="tax-filling.html">Tax Filling</a></h3>
+                                                    <h3><a href="tax-prepration.html">Tax Preparation Services</a></h3>
+                                                    <h3><a href="unpaid-back.html">Unpaid Back Taxes</a></h3>
+                                                    <h3><a href="trust-tax.html">Trust Tax Preparation</a></h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="faq.html">FAQ's</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Blog</a>
+                                        </li>
+
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                    <ul class="extra-menu-item menu-item-button-link">
+                                        <li class="in"><a><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="in"><a><i class="fab fa-twitter"></i></a></li>
+                                        <li class="in"><a><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li class="in"><a><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="extra-menu-item menu-item-button-link">
+                                            <div id="search-2" class="widget widget_search">
+                                                <form class="search-form-inner">
+                                                    <label>
+                                                        <span class="screen-reader-text "></span>
+                                                        <input class="search-field form-control" placeholder="Search"
+                                                            type="search">
+                                                    </label>
+                                                    <button class="search-submit " type="submit"><i
+                                                            class="fas fa-search"></i></button>
+                                                </form>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- masthead end -->
+        </div>
+        <!----------------------------------------wapper-end--------------------------------------------->
+        <main id="main">
+            <!--========================slide===========================-->
+
+            <div class="rev_slider_wrapper ">
+                <!-- the ID here will be used in the JavaScript below to initialize the slider -->
+                <div id="rev_slider_1" class="rev_slider" data-version="5.4.5" style="display:none;">
+                    <ul>
+                        <!-- MINIMUM SLIDE STRUCTURE -->
+                        <!-- SLIDE  -->
+                        <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default" data-easeout="default"
+                            data-masterspeed="300" data-thumb="assets/images/banner-3-100x50.jpg" data-rotate="0"
+                            data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
+                            data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                            data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            
+                            <!-- video-->
+                            <div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute"
+                                data-videowidth="100%" data-videoheight="100%" data-videomp4="img/video.mp4"
+                                data-videopreload="auto" data-videoloop="loop" data-aspectratio="16:9"
+                                data-autoplay="true" data-autoplayonlyfirsttime="false">
+                            </div>
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption fp_title_layer   tp-resizeme" id="slide-4-layer-1"
+                                data-x="[''center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['360','360','300','300']"
+                                data-fontsize="['70','70','48','40']" data-lineheight="['90','60','60','30']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1000,"split":"chars","splitdelay":0.1,"speed":1200,"frame":"0","from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1400,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power2.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);">The Senac Group
+                            </div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption fp_title_layer   tp-resizeme tax" id="slide-4-layer-2"
+                                data-x="[''center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['440','440','350','340']"
+                                data-fontsize="['70','70','48','40']" data-lineheight="['70','60','60','30']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1000,"split":"chars","splitdelay":0.1,"speed":1200,"frame":"0","from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1400,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power2.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);">Tax Professional You Can Trust </div>
+                            <!-- LAYER NR.3 -->
+                            <div class="tp-caption fp_content_layer   tp-resizeme" id="slide-4-layer-3"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['530','530','415','345']"
+                                data-fontsize="['18','18','18','24']" data-lineheight="['32','32','32','20']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1200,"split":"chars","splitdelay":0.05,"speed":1400,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1600,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 9; white-space: nowrap; color: rgba(255,255,255,1);">Affordable Prices | Flawless Filing  | Personalized Services | Satisfaction Guaranteed
+                            </div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption fp_content_layer   tp-resizeme" id="slide-4-layer-4"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['560','560','445','370']"
+                                data-fontsize="['18','18','18','24']" data-lineheight="['32','32','32','20']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1200,"split":"chars","splitdelay":0.05,"speed":1400,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1600,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 10; white-space: nowrap; color: rgba(255,255,255,1);"></div>
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption fp_button_layer rev-btn " id="slide-4-layer-5"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['640','640','500','390']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
+                                data-responsive_offset="on" data-responsive="off"
+                                data-frames='[{"delay":960,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bw:2 2 2 2;"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[10,10,0,0]"
+                                data-paddingright="[30,30,30,30]" data-paddingbottom="[10,10,10,10]"
+                                data-paddingleft="[30,30,30,30]"
+                                style="z-index: 11; white-space: nowrap; color: rgba(255,255,255,1);background-color:transparent;border-color:rgba(255,255,255,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                                <ul class="list-inline">
+
+                                    <li><a class="btn2" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- MINIMUM SLIDE STRUCTURE -->
+                        <!-- SLIDE  -->
+                        <li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default" data-easeout="default"
+                            data-masterspeed="300" data-thumb="assets/images/banner-3-100x50.jpg" data-rotate="0"
+                            data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
+                            data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                            data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            
+                            <!-- video -->
+                            <div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute"
+                                data-videowidth="100%" data-videoheight="100%" data-videomp4="img/video.mp4"
+                                data-videopreload="auto" data-videoloop="loop" data-aspectratio="16:9"
+                                data-autoplay="true" data-autoplayonlyfirsttime="false">
+                            </div>
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption fp_title_layer   tp-resizeme" id="slide-5-layer-1"
+                                data-x="[''center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['360','360','300','300']"
+                                data-fontsize="['70','70','48','40']" data-lineheight="['90','60','60','30']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1000,"split":"chars","splitdelay":0.1,"speed":1200,"frame":"0","from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1400,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power2.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);">Comprehensive </div>
+                            <!-- LAYER NR. 7 -->
+                            <div class="tp-caption fp_title_layer   tp-resizeme" id="slide-5-layer-2"
+                                data-x="[''center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['440','440','350','340']"
+                                data-fontsize="['70','70','48','40']" data-lineheight="['70','60','60','30']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1000,"split":"chars","splitdelay":0.1,"speed":1200,"frame":"0","from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1400,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power2.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);">Tax Planning
+                            </div>
+                            <!-- LAYER NR. 8 -->
+                            <div class="tp-caption fp_content_layer   tp-resizeme" id="slide-5-layer-3"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['530','530','415','345']"
+                                data-fontsize="['18','18','18','24']" data-lineheight="['32','32','32','20']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1200,"split":"chars","splitdelay":0.05,"speed":1400,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1600,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 9; white-space: nowrap; color: rgba(255,255,255,1);">We develop comprehensive plans to help our clients manage their wealth, 
+                            </div>
+                            <!-- LAYER NR. 9 -->
+                            <div class="tp-caption fp_content_layer   tp-resizeme" id="slide-5-layer-4"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['560','560','445','370']"
+                                data-fontsize="['18','18','18','24']" data-lineheight="['32','32','32','20']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1200,"split":"chars","splitdelay":0.05,"speed":1400,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1600,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 10; white-space: nowrap; color: rgba(255,255,255,1);">organize their finances, and reduce the burden of taxes. 
+                                </div>
+                            <!-- LAYER NR. 10 -->
+                            <div class="tp-caption fp_button_layer rev-btn " id="slide-5-layer-5"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['640','640','500','390']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
+                                data-responsive_offset="on" data-responsive="off"
+                                data-frames='[{"delay":960,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bw:2 2 2 2;"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[10,10,10,10]" data-paddingright="[30,30,30,30]"
+                                data-paddingbottom="[10,10,10,10]" data-paddingleft="[30,30,30,30]"
+                                style="z-index: 11; white-space: nowrap; color: rgba(255,255,255,1);background-color:transparent;border-color:rgba(255,255,255,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                                <ul class="list-inline">
+
+                                    <li><a class="btn2" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-6" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default" data-easeout="default"
+                            data-masterspeed="300" data-thumb="assets/images/banner-3-100x50.jpg" data-rotate="0"
+                            data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
+                            data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                            data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            
+                            <!-- video -->
+                            <div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute"
+                                data-videowidth="100%" data-videoheight="100%" data-videomp4="img/video.mp4"
+                                data-videopreload="auto" data-videoloop="loop" data-aspectratio="16:9"
+                                data-autoplay="true" data-autoplayonlyfirsttime="false">
+                            </div>
+                            <!-- LAYER NR. 11 -->
+                            <div class="tp-caption fp_title_layer   tp-resizeme" id="slide-6-layer-1"
+                                data-x="[''center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['360','360','300','300']"
+                                data-fontsize="['70','70','48','40']" data-lineheight="['90','60','60','30']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1000,"split":"chars","splitdelay":0.1,"speed":1200,"frame":"0","from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1400,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power2.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);"> Fast
+                            </div>
+                            <!-- LAYER NR. 12 -->
+                            <div class="tp-caption fp_title_layer   tp-resizeme" id="slide-6-layer-2"
+                                data-x="[''center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['440','440','350','340']"
+                                data-fontsize="['70','70','48','40']" data-lineheight="['90','60','60','30']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1000,"split":"chars","splitdelay":0.1,"speed":1200,"frame":"0","from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1400,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power2.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);">Tax Filing </div>
+                            <!-- LAYER NR. 13 -->
+                            <div class="tp-caption fp_content_layer   tp-resizeme" id="slide-6-layer-3"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['530','530','415','345']"
+                                data-fontsize="['18','18','18','24']" data-lineheight="['32','32','32','20']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1200,"split":"chars","splitdelay":0.05,"speed":1400,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1600,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 9; white-space: nowrap; color: rgba(255,255,255,1);"> Take the stress out of tax season with our help. 
+                            </div>
+                            <!-- LAYER NR. 14 -->
+                            <div class="tp-caption fp_content_layer   tp-resizeme" id="slide-6-layer-4"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['560','560','445','370']"
+                                data-fontsize="['18','18','18','24']" data-lineheight="['32','32','32','20']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":1200,"split":"chars","splitdelay":0.05,"speed":1400,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1600,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 10; white-space: nowrap; color: rgba(255,255,255,1);">We provide prompt and efficient service to save you time on filing your taxes each year.</div>
+                            <!-- LAYER NR. 15 -->
+                            <div class="tp-caption fp_button_layer rev-btn " id="slide-6-layer-5"
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                data-y="['top','top','top','top']" data-voffset="['640','640','500','390']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
+                                data-responsive_offset="on" data-responsive="off"
+                                data-frames='[{"delay":960,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bw:2 2 2 2;"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                data-paddingtop="[10,10,10,10]" data-paddingright="[30,30,30,30]"
+                                data-paddingbottom="[10,10,10,10]" data-paddingleft="[30,30,30,30]"
+                                style="z-index: 11; white-space: nowrap; color: rgba(255,255,255,1);background-color:transparent;border-color:rgba(255,255,255,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                                <ul class="list-inline">
+
+                                    <li><a class="btn2" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- END SLIDES LIST -->
+                </div>
+                <!-- END SLIDER CONTAINER -->
+            </div>
+            <!-- END SLIDER CONTAINER WRAPPER -->
+            <!--========================slide===========================-->
+
+            <!--========================about-us section===========================-->
+            <div class="about-us-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="first col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="heading">
+                                <h1 style="font-size: 38px;">Welcome to The Senac Group: Your Partner in Tax Efficiency and Financial Success</h1>
+                                
+                            </div>
+                            <div class="content-inner">
+                                
+                                <p style="text-align: justify;">At The Senac Group, we understand the complexities of financial management, taxation, and compliance. Our expert team of certified professionals is dedicated to providing tailored solutions to individuals and businesses, ensuring financial success and peace of mind. With years of experience and a commitment to excellence, we are your go-to partner for all your tax and accounting needs.</p>
+                                
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column">
+                                    <div class="btnn">
+                                        <a href="contact.html">Contact Us</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                    <div class="image">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="about-sec-inner wow zoomIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="image-sec">
+                                        <img src="img/core-values-min.jpeg" style="  height: 184px;" class="img-responsive" alt="img" width="270"
+                                            height="288" />
+                                    </div>
+                                    <div class="content-inner-sec">
+                                        <h2>Our Values</h2>
+                                        <p>Our goal is to reduce the complexity of tax administration so that our
+                                            clients may relax and feel secure financially. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="about-sec-inner wow zoomIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="image-sec">
+                                        <img src="img/mission-min.jpeg" class="img-responsive" alt="img" width="270"
+                                            height="288" />
+                                    </div>
+                                    <div class="content-inner-sec">
+                                        <h2>How we work</h2>
+                                        <p> Our team of experts works diligently to navigate the complex
+                                            landscape of taxation pertinent advice possible.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!--========================about-us section===========================-->
+
+
+            <div class="our-case-section  ui-group" data-js="case-study" style="height: auto; position: relative; ">
+                <div class="container">
+                    <div class="row first">
+                        <div class="heading text-center">
+                            <h1>Our Services</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-group">
+                    <ul class="button-group manasory-filter" data-filter-group="case">
+                        <li class="button active" data-filter=".ViewPage" id="viewAllButton"> View All Our Services</li>
+                        <li class="button" data-filter=".PersonalTax">Tax Planning and Preparation</li>
+                        <li class="button" data-filter=".Software ">Small Business Accounting</li>
+                        <li class="button" data-filter=".Travel"> Financial Consulting </li>
+                        <li class="button" data-filter=".Technology">CRA Representation </li>
+                        
+                    </ul>
+                </div>
+                
+
+                <div class="list-project row grid" style="height: 441px!important;">
+                    
+                    <div class="gallery_product grid-item  project ViewPage   Software  ">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/img-3.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Payroll Tax</p>
+                                        <h2 class="tagline overtext"> We want you to feel secure knowing that we have your payroll tax needs under control.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project ViewPage PersonalTax ">
+                        <div class="filter-outer">
+                            <a href="personal-tax.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/img-1.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Personal and Bussiness Tax Return</p>
+                                        <h2 class="tagline overtext">We ensure that our clients save precious time and financial resources on their tax. </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project ViewPage  Technology ">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/tax 1.jpg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Tax Issue Resolution
+                                        </p>
+                                        <h2 class="tagline overtext">Effective tax preparation starts with proper
+                                            bookkeeping.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project ViewPage Travel">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic14.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Budgeting and Forecasting
+                                        </p>
+                                        <h2 class="tagline overtext">Our Strategic Planning Services at firm Advisory Canada are customised to fit your individual objectives.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project PersonalTax ">
+                        <div class="filter-outer">
+                            <a href="personal-tax.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic17.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Tax Minimization Strategies</p>
+                                        <h2 class="tagline overtext">We are experts at quick and easy GST/HST filing, releasing you to focus on growing your business.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery_product grid-item  project  Software  ">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/img-2.jpeg"
+                                    class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Bookkeeping and Financial Statements</p>
+                                        <h2 class="tagline overtext">Effective tax preparation starts with proper
+                                            bookkeeping. </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project  PersonalTax">
+                        <div class="filter-outer">
+                            <a href="personal-tax.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/img1.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Tax Compliance and Reporting</p>
+                                        <h2 class="tagline overtext">Managing Back Taxes might be stressful, but we've
+                                            got you covered. </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project Software">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic13.jpeg"
+                                    class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Business Advisory</p>
+                                        <h2 class="tagline overtext">Our Strategic Planning Services at firm Advisory Canada are customised to fit your individual objectives. </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project   Travel ">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/about.jpg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Cash Flow Management
+                                        </p>
+                                        <h2 class="tagline overtext">Unlock the full potential of your company through
+                                            specialised planning and success. </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project  Travel ">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic18.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Financial Analysis and Reporting
+                                        </p>
+                                        <h2 class="tagline overtext">Maintain a healthy financial position and make wise
+                                            judgements.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project  Technology ">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/Accounting firm.jpg" class="img-responsive" alt="our-case" width="385"
+                                    height="400" style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Audit Assistance
+                                        </p>
+                                        <h2 class="tagline overtext">Reduce tax payments with proactive tax planning.
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project Technology">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic19.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Tax Court Representation 
+                                        </p>
+                                        <h2 class="tagline overtext">Lower your tax bill and maximize potential refunds
+                                            exploration.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery_product grid-item  project Hotel">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic10.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Taxation Experts in Canada
+                                        </p>
+                                        <h2 class="tagline overtext">Our knowledgeable tax experts can help you
+                                            understand the complicated tax landscape.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project  Hotel">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/img12.jpeg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Audit Representation
+                                        </p>
+                                        <h2 class="tagline overtext">Our comprehensive auditing services assist in
+                                            locating financial irregularities,</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project  Financial ">
+                        <div class="filter-outer">
+                            <a href="co-operative.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic1.jpg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">Corporate Tax</p>
+                                        <h2 class="tagline overtext">Easily Navigate Corporate Taxation</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery_product grid-item  project  Hotel">
+                        <div class="filter-outer">
+                            <a href="accounting-firm.html" class="link"></a>
+                            <div class="image">
+                                <img src="img/pic3.jpg" class="img-responsive" alt="our-case" width="385" height="400"
+                                    style="height: 218px;" />
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p class="title overtext">
+                                            Accounting
+                                        </p>
+                                        <h2 class="tagline overtext">where we offer a wide range of financial services to satisfy all of your tax and accounting needs.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="container parallex-sec" style="margin-top: -650px;"  >
+                    <div class="row mid">
+                        <div class="col-lg-10 col-sm-10 col-xs-12 col-sm-12">
+                            <div class="parallex-inner">
+                                <p class="parallex-content">Honesty and Integrity: The Hallmarks of Our Tax Agency</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 col-xs-12 col-sm-12">
+                            <div class="parallex-btn">
+                                <a href="#">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    
+
+
+                    // Get all case group buttons "
+                    const caseGroupButtons = document.querySelectorAll(".button");
+                    console.log(caseGroupButtons);
+                    
+                    // Get the container element
+                    const serviceContainer = document.querySelector(".list-project");
+                    console.log(serviceContainer);
+                    
+                    
+                    // Add click event listeners to other case group buttons
+                    caseGroupButtons.forEach(button => {
+                        button.addEventListener("click", () => {
+                            console.log("services is cliked");
+                            // Remove the "show-all-services" class to hide extra services
+                            // serviceContainer.classList.remove("show-all-services");
+                    
+                            
+                    
+                            // Show only the first 8 services
+                            serviceContainer.querySelectorAll(".gallery_product").forEach((service, index) => {
+                                service.style.visibility ="visible" ;
+                                
+                            });
+                            document.querySelector('.parallex-sec').style.marginTop = '0px';
+
+                        });
+                    });
+                    
+                    
+                    
+                                    </script>
+            </div>
+
+            <div class="working-project">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Our Process</h1>
+                            
+                            <p class="para">Our tax preparation process is a journey toward financial empowerment. By combining expertise, personalized attention, and a commitment to excellence, we aim to make tax preparation a valuable and rewarding experience for every client.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project-outer arrow wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="project-inner">
+                                <a href="#" class="link"></a>
+                                    <div class="image text-center">
+                                        <span class="flaticon-powerpoint icon"></span>
+                                    </div>
+                                    <h2 class="text-center">Remote Tax</h2>
+                                    <p class="text-center">Remotely upload your paperwork, and a tax professional will file your taxes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="project-outer wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="project-inner">
+                                <a href="#" class="link"></a>
+                                    <div class="image text-center">
+                                        <span class="flaticon-maze icon"></span>
+                                    </div>
+                                    <h2 class="text-center">File In Office </h2>
+                                    <p class="text-center"> Drop off your paperwork at a location and speak with a tax expert there.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project-outer arrow wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="project-inner">
+                                <a href="#" class="link"></a>
+                                    <div class="image text-center">
+                                        <span class="flaticon-idea-1 icon"></span>
+                                    </div>
+                                    <h2 class="text-center">Assessment and Planning</h2>
+                                    <p class="text-center">We examine your financial situation to personalised tax strategy.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project-outer arrow wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="project-inner">
+                                <a href="#" class="link"></a>
+                                    <div class="image text-center">
+                                        <span class="flaticon-lightbulb icon"></span>
+                                    </div>
+                                    <h2 class="text-center">Customised Solutions</h2>
+                                    <p class="text-center">We base our advice on your particular needs to create a tax strategy .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="project-outer wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="project-inner">
+                                <a href="#" class="link"></a>
+                                    <div class="image text-center">
+                                        <span class="flaticon-gear icon"></span>
+                                    </div>
+                                    <h2 class="text-center">Implementation</h2>
+                                    <p class="text-center"> we carry out our plan while handling all related documentation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+
+            <div class="counter-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">  
+                            <h1>Empowering Success Through Expert Tax Guidance and Strategies</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="employees same wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <p><span class="counter-count" data-speed="7000">90</span> <small>+</small></p>
+                                <p class="employee-p">Countries Served</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="customer same wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <p><span class="counter-count" data-speed="7000">3000</span> <a
+                                        class="txt"></a><small>+</small></p>
+                                <p class="employee-p">Clients Worldwide</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="design same wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <p><span class="counter-count" data-speed="7000">72</span> <small>+</small></p>
+                                <p class="employee-p">Rewards and Accolades</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="order same wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <p><span class="counter-count" data-speed="7000">20</span> <small>+</small></p>
+                                <p class="employee-p">Years in consulting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="welcome-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Why Choose The Senac Group?</h1>
+                            
+                           
+                        </div>
+                    </div>
+                    <div class="row one" style="margin-top: 37px;">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="welcome-inner ">
+                                <div class="icon">
+                                    <a href="#"><span class="flaticon-global icon-in"></span></a>
+                                </div>
+                                <div class="welcome-content">
+                                    <a href="#">
+                                        <h2>Expertise</h2>
+                                    </a>
+                                    <p>Our team comprises qualified professionals with a deep understanding of tax codes, regulations, and financial best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="welcome-inner ">
+                                <div class="icon">
+                                    <a href="#"><span class="flaticon-support icon-in"></span></a>
+                                </div>
+                                <div class="welcome-content">
+                                    <a href="#">
+                                        <h2>Personalized Solutions</h2>
+                                    </a>
+                                    <p>We know that every client's situation is unique. We tailor our services to meet your specific needs and goals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="welcome-inner in ">
+                                <div class="icon">
+                                    <a href="#"><span class="flaticon-maze icon-in"></span></a>
+                                </div>
+                                <div class="welcome-content">
+                                    <a href="#">
+                                        <h2>Accuracy and Compliance</h2>
+                                    </a>
+                                    <p>We prioritize accuracy and ensure that you remain compliant with all tax laws and regulations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="welcome-inner ">
+                                <div class="icon">
+                                    <a href="#"><span class="flaticon-chain icon-in"></span></a>
+                                </div>
+                                <div class="welcome-content">
+                                    <a href="#">
+                                        <h2>Confidentiality</h2>
+                                    </a>
+                                    <p>Your financial information is treated with the utmost confidentiality and security.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="welcome-inner ">
+                                <div class="icon">
+                                    <a href="#"><span class="flaticon-gear icon-in"></span></a>
+                                </div>
+                                <div class="welcome-content">
+                                    <a href="#">
+                                        <h2>Cost-Effective</h2>
+                                    </a>
+                                    <p>Our services are designed to provide value for your investment, helping you save money in the long run.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                            <div class="heading">
+                                <h1>Get In Touch</h1>
+                            </div>
+                            <div class="para" style="padding: 0px!important;margin-top: -33px;">
+                                <p style="font-size: 17px;text-align: justify;padding: 2px 51px 0px 0px;">Ready to take control of your taxes and secure your financial future? Contact The Senac Group today to schedule a consultation. Our friendly team is here to answer your questions and guide you toward financial success.</p>
+                            </div><br>
+                            <div class="contact-section-outer">
+                                <div class="contact-inner">
+                                    <div class="icon">
+                                        <span class="flaticon-phone-1 icn"></span>
+                                    </div>
+                                    <div class="content-in in">
+                                        <ul>
+                                            <li class="top" style="background: white;"> (416) 335-4999</li>
+                                            <li class="bottom" > Talk to an Expert.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="contact-inner">
+                                    <div class="icon">
+                                        <span class="flaticon-mail icn in"></span>
+                                    </div>
+                                    <div class="content-in">
+                                        <ul>
+                                            <li class="top" style="background: white;"> Info@senac.ca</li>
+                                            <li class="bottom"> Also email us</li>
+                                        </ul>
+                                    </div>
+                                </div><br>
+                                <div class="contact-inner">
+                                    <div class="icon">
+                                        <span class="flaticon-pin icn in"></span>
+                                    </div>
+                                    <div class="content-in">
+                                        <ul>
+                                            <li class="top" style="background: white;margin-top: 9px;">1585 Markham Rd Unit 409<br> Scarborough, ON M1B 2W1 </li>
+                                            <li class="bottom"> Also visit us</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                            <div class="form-inner">
+                                <form method="post" action="home-page-5.html" id="contact-form">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                                            <div class="form-group">
+                                                <select id="comparison" name="optselect" class="form-control">
+                                                    <option value="Finance & Restructuring">Corporate Tax</option>
+                                                    <option value="Strategic Planning">Personal Tax</option>
+                                                    <option value="Marketing & Sales">Payroll Tax Problems</option>
+                                                    <option value="Strategic Communications">Small Bussiness Tax</option>
+                                                    <option value="Trades & Stocks">Tax Filling</option>
+                                                    <option value="Audit & Assurance">Late Tax</option>
+                                                    <option value="Finance & Restructuring">Cra Audit Representation</option>
+                                                    <option value="Strategic Planning">Bussiness Patnership Tax Prepration</option>
+                                                    <option value="Marketing & Sales">Self-Employed Tax Prepration</option>
+                                                    <option value="Strategic Communications">Accounting Firm</option>
+                                                    <option value="Trades & Stocks">Late Tax Filling</option>
+                                                    <option value="Audit & Assurance">Tax Planning</option>
+                                                    <option value="Audit & Assurance">Tax Services</option>
+                                                    <option value="Audit & Assurance">Bussiness Advisory</option>
+                                                    <option value="Strategic Planning">Bussiness Tax Prepration</option>
+                                                    <option value="Strategic Planning">Tax Prepration Services</option>
+                                                    <option value="Strategic Planning">Trust Tax Prepration</option>
+                                                    <option value="Strategic Planning">Unpaid Back Taxes</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="username" type="text" placeholder="First name*" class="form-control" required="required">
+                                            </div>
+                                            <div class="form-group in">
+                                                <input name="phone" type="number" placeholder="Phone Number*" class="form-control" required="required">
+                                            </div>
+                                            <div class="form-group in">
+                                                <input name="email" type="email" placeholder="Enter Email*" class="form-control" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" required rows="6" placeholder="message"></textarea>
+                                            </div>
+                                            <div class="form-group in">
+                                                <button type="submit" class="btn btn-default ">Send Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest-news" style="  margin-top: -50px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 center">
+                            <h1 style="color: #0b0a0a;">Latest News</h1>
+                            
+                            <p style="color: #0b0a0a;">Get our latest thinking on the biggest opportunities and most
+                                challenging issues facing managers today.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-news-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 owl">
+                            <div class="owl-carousel owl-theme owl-news">
+                                <div class="item">
+                                    <div class="latest-news-inner wow fadeInLeft" data-wow-delay="0ms"
+                                        data-wow-duration="1500ms">
+                                        <div class="image">
+                                            <img src="homepage4/img/latest--2.jpg" alt="latest-news"
+                                                class="img-responsive" width="369" height="180" />
+                                            <div class="overlay">
+                                                <div class="txt"> <span class="flaticon-chain"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="hero"><a href="#">General, World</a></div>
+                                        <div class="content">
+                                            <h5>March 31, 2018</h5>
+                                            <div class="txt-inner">
+                                                <h2>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</h2>
+                                                <p>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</p>
+                                                <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="latest-news-inner wow fadeInUp" data-wow-delay="0ms"
+                                        data-wow-duration="1500ms">
+                                        <div class="image">
+                                            <img src="homepage4/img/latest--1.jpg" alt="latest-news"
+                                                class="img-responsive" width="369" height="180" />
+                                            <div class="overlay">
+                                                <div class="txt"> <span class="flaticon-chain"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="hero"><a href="#">Technology, Video</a></div>
+                                        <div class="content">
+                                            <h5>March 31, 2018</h5>
+                                            <div class="txt-inner">
+                                                <h2>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</h2>
+                                                <p>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</p>
+                                                <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="latest-news-inner wow fadeInRight" data-wow-delay="0ms"
+                                        data-wow-duration="1500ms">
+                                        <div class="image">
+                                            <img src="homepage4/img/latest--3.jpg" alt="latest-news"
+                                                class="img-responsive" width="369" height="180" />
+                                            <div class="overlay">
+                                                <div class="txt"> <span class="flaticon-chain"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="hero"><a href="#">Tech, World</a></div>
+                                        <div class="content">
+                                            <h5>March 31, 2018</h5>
+                                            <div class="txt-inner">
+                                                <h2>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</h2>
+                                                <p>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</p>
+                                                <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="latest-news-inner">
+                                        <div class="image">
+                                            <img src="homepage4/img/latest--2.jpg" alt="latest-news"
+                                                class="img-responsive" width="369" height="180" />
+                                            <div class="overlay">
+                                                <div class="txt"><span class="flaticon-chain"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="hero"><a href="#">General, World</a></div>
+                                        <div class="content">
+                                            <h5>March 31, 2018</h5>
+                                            <div class="txt-inner">
+                                                <h2>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</h2>
+                                                <p>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</p>
+                                                <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="latest-news-inner">
+                                        <div class="image">
+                                            <img src="homepage4/img/latest--1.jpg" alt="latest-news"
+                                                class="img-responsive" width="369" height="180" />
+                                            <div class="overlay">
+                                                <div class="txt"> <span class="flaticon-chain"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="hero"><a href="#">Technology, Video</a></div>
+                                        <div class="content">
+                                            <h5>March 31, 2018</h5>
+                                            <div class="txt-inner">
+                                                <h2>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</h2>
+                                                <p>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</p>
+                                                <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="latest-news-inner">
+                                        <div class="image">
+                                            <img src="homepage4/img/latest--3.jpg" alt="latest-news"
+                                                class="img-responsive" width="369" height="180" />
+                                            <div class="overlay">
+                                                <div class="txt"> <span class="flaticon-chain"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="hero"><a href="#">Tech, World</a></div>
+                                        <div class="content">
+                                            <h5>March 31, 2018</h5>
+                                            <div class="txt-inner">
+                                                <h2>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</h2>
+                                                <p>More than 50 percent of the work we do today did not exist 10 years
+                                                    ago.</p>
+                                                <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class=" client-logo-carousel" style="background: #224c86;">
+                <div class="container">
+                    <div class="owl-carousel owl-theme owl-logo" style="display: flex; justify-content: space-evenly;">
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-1.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-2.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-3.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-4.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-5.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-6.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-1.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-2.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-3.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-4.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-5.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                        <div class="item">
+                            <img src="homepage3/img/c-logo-6.png" class="img-responsive" width="150" height="150" alt="logo" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <div class="testimonial-section">
+                <div id="Carousel-testimonial" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#Carousel-testimonial" data-slide-to="0" class="active"></li>
+                        <li data-target="#Carousel-testimonial" data-slide-to="1"></li>
+                        <li data-target="#Carousel-testimonial" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item first active" style="background-image: url(img/test-3.jpg);">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="testimonial-inner wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="img">
+                                        <img src="homepage4/img/svg/test-quote.png" class="img-responsive" width="60" height="60" alt="quote" />
+                                    </div>
+                                    <div class="content-inner">
+                                        <h2>John D.</h2>
+                                        <h5>Chicago, USA</h5>
+                                        <p>I've been with The Senac Group for years, and their expertise has been invaluable. They've helped me navigate complex tax situations and provided soundfinancial advice.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item second" style="background-image: url(img/test-1.jpg);">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="testimonial-inner wow bounceIn" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="img">
+                                        <img src="homepage4/img/svg/test-quote.png" class="img-responsive" width="60"
+                                            height="60" alt="quote" />
+                                    </div>
+                                    <div class="content-inner">
+                                        <h2>Sarah R.</h2>
+                                        <div class="border"></div>
+                                        <h5>Chicago, USA</h5>
+                                        <p>As a small business owner, l rely on The Senac Group for all my accounting needs. They've taken a huge burden off my shoulders and allowed me to focus on growing my business.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="item third " style="background-image: url(img/test-3.jpg);display: none;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="testimonial-inner wow bounceIn" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="img">
+                                        <img src="homepage4/img/svg/test-quote.png" class="img-responsive" width="60"
+                                            height="60" alt="quote" />
+                                    </div>
+                                    <div class="content-inner">
+                                        <h2>John D.</h2><br>
+                                        
+                                        
+                                        <p>I've been with The Senac Group for years, and their expertise has been invaluable. They've helped me navigate complex tax situations and provided soundfinancial advice.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        
+                    </div>
+                    <!-- Left and right controls -->
+                </div>
+            </div>
+
+
+            
+
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                            <div class="heading" style="margin-top: -36px;">
+                                <div class="image">
+                                    <img src="img/Logo.jpg" class="img-responsive" alt="logo" width="161" height="42" />
+                                </div>
+                                <div class="border"></div>
+                            </div>
+                            <div class="description">
+                                <p>The Senac Group provides a complete range of solutions for your tax preparation needs. With years of experience, we’ve developed a strong reputation as a trusted service provider, saving our clients time and money on their taxes.</p>
+                                <div class="info-inner " style="margin-left: -8px;">
+                                    <span class="icontop "><span class="flaticon-phone-1 icon"></span></span>
+                                    <span class="iconcont" style="line-height: 60px;">(416) 335-4999</span>
+                                </div>
+                                <div class="info-inner info-inner-footer">
+                                    <span class="icontop "><i class="far fa-envelope email"></i></span>
+                                    <span class="iconcont"
+                                        style="line-height: 60px;text-transform: none;">Info@senac.ca</span>
+                                </div>
+                                <div class="info-inner info-inner-footer">
+                                    <span class="icontop"><span class="flaticon-pin icon"></span></span>
+                                    <span class="iconcont" style="margin-top: -38px;margin-left: 61px;">1585 Markham Rd
+                                        Unit 409 Scarborough, ON M1B 2W1
+
+                                    </span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 service-class">
+
+                            <div class="heading">
+                                <h2>Our Services</h2>
+                                <div class="border"></div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+                                <div class="description link">
+                                    <ul class="list1">
+                                        <li><a href="co-operative.html">Corporate Tax</a></li>
+                                        <li><a href="personal-tax.html">Personal Tax</a></li>
+                                        <li><a href="accounting-firm.html">Accounting Firm</a></li>
+                                        <li><a href="bussiness-patnership.html">Business Partnership Tax Preparation</a>
+                                        </li>
+                                        <li><a href="cra-audit.html">CRA Audit Representation</a></li>
+                                        <li><a href="payroll-tax.html">Payroll Tax Problems</a></li>
+                                        <li><a href="late-tax-filling.html">Late Tax Filling</a></li>
+                                        <li><a href="self-employed-tax-prepration.html">Self Employed Tax
+                                                Preparation</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+                                <div class="description link">
+                                    <ul>
+
+                                        <li><a href="small-bussiness.html">Small Business Tax</a></li>
+                                        <li><a href="tax-planing.html">Tax Planning</a></li>
+                                        <li><a href="bussiness-advisory.html">Business Advisory</a></li>
+                                        <li><a href="bussiness-tax.html">Business Tax Preparation </a></li>
+                                        <li><a href="tax-filling.html">Tax Filling</a></li>
+                                        <li><a href="tax-prepration.html">Tax Preparation Services</a></li>
+                                        <li><a href="unpaid-back.html">Unpaid Back Taxes</a></li>
+                                        <li><a href="trust-tax.html">Trust Tax Preparation</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="heading">
+                                <h2>Contact Us</h2>
+                                <div class="border"></div>
+                            </div>
+                            <div class="description last">
+                                <form method="post" action="home-page-4.html" id="contact-form">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <input name="username" type="text" placeholder="Name"
+                                                    class="form-control" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <input name="email" type="email" placeholder="Email"
+                                                    class="form-control" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <textarea id="message" name="message" class="form-control " required
+                                                    rows="4" placeholder="Your message"></textarea>
+                                                <div class="submit-button text-right">
+                                                    <button type="submit" class="btn btn-default"><i
+                                                            class="far fa-envelope"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------sec-11------------------------------------footer-last--------------------------------------->
+            <div class="footer-last">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                            <ul>
+                                <li>Copyright © 2023 The Senac Group. Designed by <a href="http://zolovio.io/"
+                                        class="copy">Zolovio.io</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                            <ul class="link">
+                                <li class="bor"><a href="#" class="copy">Terms & Condition </a></li>
+                                <li><a href="#" class="copy"> Privacy Policy</a></li>
+                                <li><a href="#" class="back-to-top" title="Back to top"><i
+                                            class="fas fa-angle-up"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------sec-11------------------------------------footerlast-end--------------------------------------->
+        </main>
+    </div>
+    <!--primary-mobile-nav-->
+    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
+        <a href="#" class="close-canvas-mobile-panel">×</a>
+        <ul id="primary-menu2" class="menu">
+            <li class="dropdown-item current-menu-item menu-item-has-children">
+                <a href="index.html">Home</a>
+
+            </li>
+            <li class="dropdown-item  menu-item-has-children">
+                <a href="about.html">About</a>
+
+            </li>
+            <li class="dropdown-item  menu-item-has-children">
+                <a href="#">Services</a>
+                <ul class="sub-menu">
+                    <li><a href="co-operative.html">Co-operate Tax</a></li>
+                    <li><a href="personal-tax.html"> Personal Tax</a></li>
+                    <li><a href="bussiness-patnership.html"> Bussiness Patnership</a></li>
+                    <li><a href="bussiness-advisory.html"> Bussiness Advisory</a></li>
+                    <li><a href="small-bussiness.html"> Small Bussiness</a></li>
+                    <li><a href="tax-filling.html"> Tax Filling</a></li>
+                    <li><a href="payroll-tax.html"> Payroll Tax</a></li>
+                    <li><a href="self-employed-tax-prepration.html"> Self Employed Tax Prepration</a></li>
+                    <li><a href="tax-planing.html"> Tax Planing</a></li>
+                    <li><a href="trust-tax.html"> Trust Tax</a></li>
+                    <li><a href="late-tax-filling.html"> Late Tax Filling</a></li>
+                    <li><a href="cra-audit.html"> CRA Audit</a></li>
+                    <li><a href="accounting-firm.html"> Accounting Firm Tax</a></li>
+                    <li><a href="bussiness-tax.html"> Bussiness Tax</a></li>
+                    <li><a href="tax-prepration.html"> Tax Prepration</a></li>
+                    <li><a href="unpaid-back.html"> Unpaid Back Tax</a></li>
+                    <li><a href="late-tax-filling.html"> Late Tax Filling</a></li>
+                </ul>
+            </li>
+            <li><a href="faq.html">FAQ's</a></li>
+            <li class="dropdown-item  menu-item-has-children">
+                <a href="#">Blog</a>
+
+            </li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div id="off-canvas-layer" class="off-canvas-layer"></div>
+    <!--primary-mobile-nav end-->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js">
+    </script>
+    <!-- Core jQuery Script -->
+    <script src="homepage4/js/jquery.js"></script>
+    <!---Slider Revolution core JavaScript files ---->
+    <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Slider Revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING-->
+    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="homepage1/owl/owl.carousel.js"></script>
+    <script src="homepage4/js/other.js"></script>
+    <!-- script JS  -->
+    <script src="js/nav-scripts.min.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="homepage5/js/isotope.min.js"></script>
+
+</body>
+
+</html>
